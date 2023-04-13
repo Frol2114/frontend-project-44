@@ -1,0 +1,39 @@
+{
+  «имя» : « @hexlet/code. » ,
+  "версия" : " 1.0.0 " ,
+  "description" : " Шаблонный пакет Node.js " ,
+  "бункер" : {
+    «мозговые игры» : « bin/brain-games.js » ,
+    «мозг-даже» : « bin/brain-even.js » ,
+    «мозг-вычисление» : « bin/brain-calc.js » ,
+    «мозг-gcd» : « bin/brain-gcd.js » ,
+    «мозговой прогресс» : « bin/brain-progression.js » ,
+    «мозг-премьер» : « bin/brain-prime.js »
+  },
+  "скрипты" : {
+    "тип" : " модуль " ,
+    "тест" : " эхо \" Ошибка: тест не указан \" && выход 1 "
+  },
+  "хранилище" : {
+    "тип" : " git " ,
+    "url" : " git+ssh://git@github.com/Jekaterina111/frontend-project-44.git "
+  },
+  "автор" : " Екатерина " ,
+  "лицензия" : " ISC " ,
+  "ошибки" : {
+    "url" : " https://github.com/Jekaterina111/frontend-project-44/issues "
+  },
+  "тип" : " модуль " ,
+  «домашняя страница» : « https://github.com/Jekaterina111/frontend-project-44#readme » ,
+  "зависимости" : {
+    "лодаш" : " ^4.17.21 " ,
+    "узловые модули" : " ^1.0.1 " ,
+    "красивее" : " ^1.5.2 " ,
+    "readline-sync" : " ^1.4.10 "
+  },
+  "devDependencies" : {
+    "эслинт" : " ^8.36.0 " ,
+    "eslint-config-airbnb-base" : " ^15.0.0 " ,
+    "eslint-плагин-импорт" : " ^2.27.5 "
+  }
+}
