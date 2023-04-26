@@ -1,39 +1,41 @@
 {
-  «имя» : « @hexlet/code. » ,
-  "версия" : " 1.0.0 " ,
-  "description" : " Шаблонный пакет Node.js " ,
-  "бункер" : {
-    «мозговые игры» : « bin/brain-games.js » ,
-    «мозг-даже» : « bin/brain-even.js » ,
-    «мозг-вычисление» : « bin/brain-calc.js » ,
-    «мозг-gcd» : « bin/brain-gcd.js » ,
-    «мозговой прогресс» : « bin/brain-progression.js » ,
-    «мозг-премьер» : « bin/brain-prime.js »
+  "name": "@hexlet/code.",
+  "version": "1.0.0",
+  "description": "Node.js boilerplate package",
+  "bin": {
+    "brain-games": "bin/brain-games.js",
+    "brain-even": "bin/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js",
+    "brain-progression": "bin/brain-progression.js"
+    "brain-progression": "bin/brain-progression.js",
+    "brain-prime": "bin/brain-prime.js"
   },
-  "скрипты" : {
-    "тип" : " модуль " ,
-    "тест" : " эхо \" Ошибка: тест не указан \" && выход 1 "
+  "scripts": {
+    "type": "module",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "хранилище" : {
-    "тип" : " git " ,
-    "url" : " git+ssh://git@github.com/Jekaterina111/frontend-project-44.git "
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Jekaterina111/frontend-project-44.git"
   },
-  "автор" : " Екатерина " ,
-  "лицензия" : " ISC " ,
-  "ошибки" : {
-    "url" : " https://github.com/Jekaterina111/frontend-project-44/issues "
+  "author": "Jekaterina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jekaterina111/frontend-project-44/issues"
   },
-  "тип" : " модуль " ,
-  «домашняя страница» : « https://github.com/Jekaterina111/frontend-project-44#readme » ,
-  "зависимости" : {
-    "лодаш" : " ^4.17.21 " ,
-    "узловые модули" : " ^1.0.1 " ,
-    "красивее" : " ^1.5.2 " ,
-    "readline-sync" : " ^1.4.10 "
+  "type": "module",
+  "homepage": "https://github.com/Jekaterina111/frontend-project-44#readme",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "node-modules": "^1.0.1",
+    "prettier": "^2.8.7",
+    "prettier": "^1.5.2",
+    "readline-sync": "^1.4.10"
   },
-  "devDependencies" : {
-    "эслинт" : " ^8.36.0 " ,
-    "eslint-config-airbnb-base" : " ^15.0.0 " ,
-    "eslint-плагин-импорт" : " ^2.27.5 "
+  "devDependencies": {
+    "eslint": "^8.36.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
   }
 }
